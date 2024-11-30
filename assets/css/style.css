@@ -207,6 +207,58 @@ button.toggle-info:active {
     color: #ffeb3b;
 }
 
+.feedback {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.feedback h2 {
+    margin-bottom: 20px;
+    color: #0b690b;
+    text-align: center;
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feedback label {
+    font-weight: bold;
+    color: #333;
+}
+
+.feedback input, 
+.feedback textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.feedback button {
+    background-color: #0b690b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback button:hover {
+    background-color: #084a08;
+}
+
 section#curiosidades {
     background-color: #1b440b94;
     box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.342);
