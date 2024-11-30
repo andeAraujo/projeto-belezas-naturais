@@ -48,10 +48,3 @@ document.getElementById("feedback-form").addEventListener("submit", function(eve
 
     alert("Feedback enviado com sucesso! Obrigado por compartilhar sua opinião.")
 })
-
-function scrollToMap(mapId) {
-    const mapSection = document.getElementById(mapId);
-    if (mapSection) {
-        mapSection.scrollIntoView({ behavior: "smooth" });
-    }
-}
