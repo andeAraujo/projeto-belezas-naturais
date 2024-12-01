@@ -259,6 +259,52 @@ button.toggle-info:active {
     background-color: #084a08;
 }
 
+#map-navigation {
+    text-align: center;
+    margin: 30px auto; /* Margem externa para afastar do conteúdo adjacente */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#map-navigation h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #0b690b;
+}
+
+#map-navigation nav {
+    position: static;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#map-navigation button {
+    background-color: #0b690b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#map-navigation button:hover {
+    background-color: #084a08;
+    transform: translateY(-2px);
+}
+
+#map-navigation button:active {
+    background-color: #0b690b;
+    transform: translateY(1px);
+}
+
 section#curiosidades {
     background-color: #1b440b94;
     box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.342);
